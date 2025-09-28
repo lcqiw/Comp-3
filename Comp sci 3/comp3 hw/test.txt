@@ -1,0 +1,19 @@
+#! /bin/bash
+./hw9
+Test 1: Addition
+c1 = (1/2 + 1/3i)
+c2 = (1/4 + 1/6i)
+c1 + c2 = (3/4 + 1/2i)
+
+Test 2: Multiplication
+c1 * c2 = (5/72 + 1/6i)
+
+Test 3: Conjugates
+conj(c1) = (1/2 + -1/3i)
+conj(c2) = (1/4 + -1/6i)
+
+Test 4: real and imaginary
+Real = (2 + 0i)
+Imag = (0 + 3i)
+Sum = (2 + 3i)
+Product = (0 + 6i)
